@@ -4,7 +4,7 @@ export const Datafetch = () => {
   const [gitData, setGitData] = useState(null || "Pavan");
   console.log(gitData.name);
 
-  const { name, avatar_url } = gitData;
+  const { avatar_url } = gitData;
 
   useEffect(() => {
     const fetchData = () => {
