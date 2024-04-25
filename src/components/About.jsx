@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
@@ -10,7 +8,6 @@ const About = () => {
               About
             </p>
           </div>
-          <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
